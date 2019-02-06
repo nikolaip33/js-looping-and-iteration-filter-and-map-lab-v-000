@@ -16,7 +16,7 @@ function exactMatch(drivers, attr) {
   console.log(attr.revenue);
   return drivers.filter(function(driver) {
 
-    driver.revenue === attr.revenue;
+    driver === attr;
 
   });
 }
