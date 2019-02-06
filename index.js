@@ -17,3 +17,7 @@ function exactMatch(drivers, attr) {
     return (driver[Object.keys(attr)[0]] === attr[Object.keys(attr)[0]]);
   });
 }
+
+function exactMatchToList(drivers, attr) {
+
+}
