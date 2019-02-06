@@ -16,7 +16,7 @@ function exactMatch(drivers, attr) {
 
   return drivers.filter(function(driver) {
     key = Object.keys(attr)[0];
-    console.log(`${driver[key]} and ${attr[key]}`);
+    console.log(`${key}`);
     driver[key] === attr[key];
   });
 }
